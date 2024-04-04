@@ -1,0 +1,48 @@
+$fontColor: grey;
+
+article {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    width: 30rem;
+    border-radius: 5%;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+.div_img_h1_p {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div_h1_p {
+    align-items: flex-start;
+}
+
+.bandeau_bas {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px rgb(194, 186, 186) solid;
+}
+
+.bandeau_bas h2 {
+    letter-spacing: 10px;
+}
+
+img {
+    width: 50%;
+    object-fit: contain;
+
+}
+
+h2,
+h3,
+p {
+    color: $fontColor;
+}
